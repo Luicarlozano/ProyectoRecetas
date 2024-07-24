@@ -33,6 +33,15 @@ header {
   text-decoration: none;
 }
 
+a:hover {
+  border-bottom: 1px solid;
+}
+
+#envia a:active {
+  background-color: #255538;
+  color: #cdfeaa;
+}
+
 #titulo1 {
   background-image: url(../img/hero.jpg);
 
@@ -69,6 +78,19 @@ nav #navegacion {
   background-color: #255538;
   padding: 8px;
   border-radius: 15px;
+}
+
+.navli a{
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: normal;
+  outline: none;
+  text-decoration: none;
+}
+
+.navli a:active {
+  background-color: #255538;
+  color: #cdfeaa;
 }
 
 .contenedor {
