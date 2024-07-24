@@ -21,9 +21,16 @@ header {
   box-shadow: 2px 2px gray;
 }
 
-header p {
+#envia {
+  list-style: none;
+}
+
+#envia a{
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   color: white;
+  font-style: normal;
+  outline: none;
+  text-decoration: none;
 }
 
 #titulo1 {
