@@ -21,6 +21,7 @@ header {
   box-shadow: 2px 2px gray;
 }
 
+
 #envia {
   list-style: none;
 }
@@ -72,6 +73,7 @@ nav #navegacion {
   justify-content: center;
   gap: 30px;
   color: white;
+  text-align: center;
 }
 
 .navli {
@@ -136,4 +138,34 @@ footer {
 footer p {
     color: white;
     font: 0.8em sans-serif;
+}
+
+@media screen and (max-width:600px ) {
+
+  main{
+    gap:5px;
+  }
+  
+#titulo1{
+  display: none;
+}
+
+nav #navegacion{
+  flex-direction: column;
+  gap:10px;
+  margin: 10px;
+}
+
+.contenedor {
+  margin: 10px;
+}
+
+.contenedor h2{
+  font-size: 50px;
+}
+
+.contenedor table tr td:nth-of-type(2){
+  text-align: right;
+}
+
 }
