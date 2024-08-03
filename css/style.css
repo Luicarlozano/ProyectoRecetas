@@ -70,7 +70,7 @@ main {
 #firts_section h1 {
   font-size: 50px;
   color: white;
-  font-family: "DM Serif Display", Arial, Helvetica, sans-serif;;
+  font-family: "DM Serif Display", Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -79,48 +79,43 @@ h3 {
   padding: 10px;
 }
 
-#grid{
+#grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   max-width: 100%;
 }
 
-.cuadroReceta{
-background-color: white;
-grid-area: auto;
-grid-column: span 1;
-grid-row: span 1;
-padding: 10px;
-margin: 5px;
-border-radius: 10px;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-gap: 5px;
-
+.cuadroReceta {
+  background-color: white;
+  grid-area: auto;
+  grid-column: span 1;
+  grid-row: span 1;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.cuadroReceta img{
+.cuadroReceta img {
   max-width: 100%;
   max-height: 55%;
 }
 
 .cuadroReceta h2 {
-text-overflow: ellipsis;
-white-space: nowrap;
-overflow: hidden;
-font-family: "DM Serif Display", Arial, Helvetica, sans-serif;;
-color: #7e4333;
-}
-
-.cuadroReceta h2 a{
-  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "DM Serif Display", Arial, Helvetica, sans-serif;
   color: #7e4333;
 }
 
-.cuadroReceta ul li {
-  font-size: 12px;
+.cuadroReceta h2 a {
+  text-decoration: none;
+  color: #7e4333;
 }
 
 footer {
@@ -138,24 +133,24 @@ footer p {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 760px ) {
-
-  #grid{
+@media screen and (max-width: 760px) {
+  #grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     max-width: 100%;
   }
-  
+
+  .cuadroReceta ul li {
+    font-size: 12px;
+  }
 }
 
-@media screen and (max-width: 480px ) {
-
-  #grid{
+@media screen and (max-width: 480px) {
+  #grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     max-width: 100%;
   }
-  
 }
