@@ -84,6 +84,7 @@ h1 {
 
 main article img {
   max-width: 100%;
+  min-width: 100%;
   padding: 10px;
   border-radius: 20px;
 }
@@ -163,6 +164,13 @@ aside {
 
 #rep {
   max-width: 30%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.m_container h3 a {
+  color: #7e4333;
+  text-decoration: none;
 }
 
 footer {
