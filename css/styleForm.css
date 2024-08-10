@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f3e5d8;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 3px;
+}
+
+
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+header ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#imagen {
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+main {
+    margin: 10px;
+}
+
+form {
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form h1{
+    color: #7e4333;
+}
+
+form p {
+    font-size: small;
+    text-align: justify;
+}
+form label {
+  color: #7e4333;
+  font-style: inherit;
+  text-decoration: 1px solid;
+}
+
+form input {
+  width: 100%;
+  background-color: rgb(208, 210, 210);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+form div textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  background-color: rgb(208, 210, 210);
+  border-radius: 5px;
+}
+
+form button {
+  max-width: 70px;
+  background-color: #255538;
+  color: white;
+}
+
+footer{
+    background-color: #255538;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer p {
+    color: white;
+}
+
+
+.dark-body {
+    background-color: black;
+    color: white;
+}
+
+.dark-form{
+    background-color:rgb(40, 39, 39);
+}
+
+.whiteH1{
+    color: white;
+}
+
+.whiteLabel{
+    color: white;
+}

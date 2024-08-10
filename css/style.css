@@ -102,7 +102,7 @@ h3 {
 
 .cuadroReceta img {
   max-width: 100%;
-  max-height: 55%;
+  max-height: 150px;
 }
 
 .cuadroReceta h2 {
@@ -113,7 +113,7 @@ h3 {
   color: #7e4333;
 }
 
-.cuadroReceta h2 a {
+.pb {
   text-decoration: none;
   color: #7e4333;
 }
@@ -131,6 +131,19 @@ footer {
 footer p {
   color: white;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+.dark-body {
+  background-color: black;
+}
+
+.dark-cuadro {
+  background-color: rgb(40, 39, 39);
+  color: white;
+}
+
+.dark-text {
+  color: white;
 }
 
 @media screen and (max-width: 760px) {

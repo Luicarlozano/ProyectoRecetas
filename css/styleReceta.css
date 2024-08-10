@@ -124,32 +124,32 @@ aside {
   gap: 10px;
 }
 
-#detalle {
+.detalle {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
 }
 
-#detalle ul {
+.detalle ul {
   padding-top: 15px;
   padding-left: 30px;
 }
 
-#detalle table {
+.detalle table {
   width: 100%;
 }
 
-#detalle table,
-#detalle td {
+.detalle table,
+.detalle td {
   border-bottom: 2px solid #7e4333;
   border-collapse: collapse;
 }
 
-#detalle table td tr:nth-of-type(2) {
+.detalle table td tr:nth-of-type(2) {
   text-align: right;
 }
 
-#m_recetas {
+.m_recetas {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
@@ -162,13 +162,14 @@ aside {
   gap: 5px;
 }
 
-#rep {
+.rep {
   max-width: 30%;
   margin-right: 10px;
   border-radius: 5px;
+  max-height: 100px;
 }
 
-.m_container h3 a {
+.pb {
   color: #7e4333;
   text-decoration: none;
 }
@@ -188,6 +189,23 @@ footer p {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
 }
 
+.dark-body {
+  background-color: black;
+}
+
+.dark-contener {
+  background-color: rgb(40, 39, 39);
+  color: white;
+}
+
+.dark-text {
+  color: white;
+}
+
+.dark-table {
+  border-bottom: 2px solid white;
+}
+
 @media screen and (max-width: 760px) {
   #grid-ini {
     display: grid;
@@ -203,11 +221,10 @@ footer p {
 
   main {
     margin: 20px 10px;
-
   }
 
-  aside{
+  aside {
     margin: 10px 10px;
-    gap:20px;
+    gap: 20px;
   }
 }
